@@ -1,7 +1,13 @@
+*{
+    margin: 0;
+    text-align: justify;
+}
 body{
-    background-image:linear-gradient(45deg, green,blue) ;
+   margin-top: 20px;
+    background-image:linear-gradient(45deg, green,rgba(0, 0, 255, 0.815)) ;
     /* background-repeat: no-repeat; */
     height: 100vh;
+    width: 90vw;
     color: white;
     font-family: sans-serif;
     background-size: 400%;
@@ -20,18 +26,12 @@ body{
     }
     
 }
-main{
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
-    
-}
+
 #part1{
     display: inline-flex;
     flex-wrap: wrap;
-
     gap: 20px;
-    width: 80vw;
+    width: 95vw;
     justify-content: center;
     align-content: center;
 }
@@ -47,7 +47,8 @@ main{
 
 div{
     display: flex;
-    width: 450px;
+    width: 350px;
+    
 }
 hr{
     margin: 20px;
@@ -63,4 +64,14 @@ hr{
 }
 p{
     text-align: center;
+}
+.p4 img{
+    margin-left:2rem;
+}
+@media screen and (min-width:1020px) {
+    div{
+        display: flex;
+        width: 420px;
+        
+     }    
 }
