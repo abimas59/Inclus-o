@@ -1,0 +1,66 @@
+body{
+    background-image:linear-gradient(45deg, green,blue) ;
+    /* background-repeat: no-repeat; */
+    height: 100vh;
+    color: white;
+    font-family: sans-serif;
+    background-size: 400%;
+    animation: move-bg 6s alternate infinite;
+    
+}
+@keyframes move-bg {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    
+}
+#part1{
+    display: inline-flex;
+    flex-wrap: wrap;
+
+    gap: 20px;
+    width: 80vw;
+    justify-content: center;
+    align-content: center;
+}
+.capa{
+    display: flex;
+    flex-direction: column;
+}
+
+.capa h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+div{
+    display: flex;
+    width: 450px;
+}
+hr{
+    margin: 20px;
+}
+#fim{
+    margin: 50px;
+}
+#sig{
+    margin-top: 100px;
+    align-self: center;
+    justify-self: end;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    text-align: center;
+}
